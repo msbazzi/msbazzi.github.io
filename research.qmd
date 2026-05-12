@@ -1,0 +1,50 @@
+---
+title: "Research"
+---
+
+My research builds **predictive, patient-specific models of cardiovascular
+disease and tissue-engineered devices**, fusing mechanistic simulation with
+data-driven discovery.
+
+## Tissue-engineered vascular grafts (TEVGs)
+
+At Stanford, I lead hybrid mechanistic + AI/ML workflows to optimize TEVG design
+by integrating large-animal experimental data with patient-specific FEA / CFD /
+FSI simulations. The goal is to **predict graft remodeling outcomes and inform
+scaffold design** before reaching the clinic.
+
+## Scientific machine learning for soft-tissue mechanics
+
+I develop **interpretable constitutive models** for native and engineered
+vascular tissue using neural-network-based discovery (CANNs) and symbolic
+regression. By combining Sobol sensitivity analysis with these methods, learned
+models are simplified into closed-form strain energy functions that integrate
+directly into FEA workflows.
+
+## Multimodal imaging pipelines
+
+I build computer-vision pipelines for **intravascular ultrasound (IVUS)**: frame
+extraction, probe masking, contour segmentation and smoothing, 3D
+reconstruction, and STL/mesh generation. The output is subject-specific
+geometry that drives FEA and CFD simulations within SimVascular.
+
+I also work with MRI and catheterization data, harmonizing them into pipelines
+that feed both mechanistic models and downstream ML.
+
+## Multiscale modeling of vascular disease
+
+During my Ph.D., I developed multiscale predictive models of:
+
+- **Aortic aneurysm progression** — including sex-specific dilation in Marfan and Fbln4-SMKO mouse models
+- **Patient-specific blood rheology** — particularly in sickle-cell disease
+- **Intracranial aneurysm oxygen transport** — coupling flow, transport, and disease physiology
+
+These were implemented in C++, Python, MATLAB, and Ansys, and deployed on
+Linux/SLURM HPC environments.
+
+## Open-source contributions
+
+I contribute to the [SimVascular](https://simvascular.github.io/) ecosystem
+(C++ / Fortran), including the **svFSI**, **svFSG**, and **svMultiPhysics**
+solvers — adding modules for mesh generation, soft-tissue constitutive
+mechanics, and fluid–solid–growth multiphysics coupling.

@@ -1,0 +1,96 @@
+---
+title: "Publications"
+---
+
+A full and current list is available on
+[Google Scholar](https://scholar.google.com/citations?user=GyhokJYAAAAJ).
+Selected peer-reviewed publications and book chapters below.
+
+## 2026
+
+::: {.pub-entry}
+[**Alterations in ascending aortic hemodynamics and aortic length correlate with sex-specific thoracic aortic aneurysm dilation and lifespan in a mouse model of severe Marfan syndrome**]{.pub-title}<br>
+K. K. Dwivedi, Y. Wu, <u>M. S. Bazzi</u>, *et al.*<br>
+[*Computers in Biology and Medicine*]{.pub-venue} (2026).
+[doi:10.1016/j.compbiomed.2026.111594](https://doi.org/10.1016/j.compbiomed.2026.111594)
+:::
+
+## 2025
+
+::: {.pub-entry}
+[**Ascending aortic aneurysm growth in the Fbln4SMKO mouse is consistent with uniform growth laws**]{.pub-title}<br>
+<u>M. S. Bazzi</u>, H. Wiputra, W. Guan, V. H. Barocas<br>
+[*Biomechanics and Modeling in Mechanobiology*]{.pub-venue} (2025).
+[doi:10.1007/s10237-025-01972-5](https://doi.org/10.1007/s10237-025-01972-5)
+:::
+
+::: {.pub-entry}
+[**A technique to track scatterers from a computational model of complex flow to simulate continuous high-speed plane-wave ultrasound acquisitions**]{.pub-title}<br>
+J. A. Ketterling, G. Wahyulaksana, <u>M. S. Bazzi</u>, H. Wiputra<br>
+[*IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control*]{.pub-venue} (2025).
+[doi:10.1109/OJUFFC.2025.3618637](https://doi.org/10.1109/OJUFFC.2025.3618637)
+:::
+
+::: {.pub-entry}
+[**Computational analysis of flow and transport suggests reduced oxygen levels within intracranial aneurysms, especially in individuals with sickle-cell disease**]{.pub-title}<br>
+<u>M. S. Bazzi</u>, H. Wiputra, D. K. Wood, V. H. Barocas<br>
+[*Journal of Biomechanical Engineering*]{.pub-venue} (2025).
+[doi:10.1115/1.4067323](https://doi.org/10.1115/1.4067323)
+:::
+
+::: {.pub-entry}
+[**Dynamic microphysiological systems to access sickle cell disease — a case study for disease modeling**]{.pub-title}<br>
+<u>M. S. Bazzi</u>, T. A. Balbino<br>
+[*Academic Press*]{.pub-venue} — book chapter (2025).
+[doi:10.1016/B978-0-443-13403-6.00013-1](https://doi.org/10.1016/B978-0-443-13403-6.00013-1)
+:::
+
+## 2024
+
+::: {.pub-entry}
+[**A novel perfusion bioreactor promotes the expansion of pluripotent stem cells in a 3D-bioprinted tissue chamber**]{.pub-title}<br>
+E. R. Komosa, W. Lin, B. Mahadik, <u>M. S. Bazzi</u>, *et al.*<br>
+[*Journal of Biofabrication*]{.pub-venue} (2024).
+[doi:10.1088/1758-5090/ad084a](https://doi.org/10.1088/1758-5090/ad084a)
+:::
+
+## 2022
+
+::: {.pub-entry}
+[**Computational and experimental comparison on the effects of flow-induced compression on the permeability of collagen gels**]{.pub-title}<br>
+C. S. Vidmar, <u>M. S. Bazzi</u>, V. K. Lai<br>
+[*Journal of the Mechanical Behavior of Biomedical Materials*]{.pub-venue} (2022).
+[doi:10.1016/j.jmbbm.2022.105107](https://doi.org/10.1016/j.jmbbm.2022.105107)
+:::
+
+::: {.pub-entry}
+[**Mouse-specific biofluidic and geometric biomarkers of ascending thoracic aortic aneurysm outcomes**]{.pub-title}<br>
+<u>M. S. Bazzi</u>, R. Balouchzadeh, S. N. Pavey, *et al.*<br>
+[*Cardiovascular Engineering and Technology*]{.pub-venue} (2022).
+[doi:10.1007/s13239-021-00600-4](https://doi.org/10.1007/s13239-021-00600-4)
+:::
+
+## 2020
+
+::: {.pub-entry}
+[**A combined experimental–computational approach to quantify patient-specific blood rheology predicts altered systemic blood flow in sickle cell disease**]{.pub-title}<br>
+<u>M. S. Bazzi</u>, J. M. Valdez, V. H. Barocas, D. K. Wood<br>
+[*Biophysical Journal*]{.pub-venue} (2020).
+[doi:10.1016/j.bpj.2020.10.011](https://doi.org/10.1016/j.bpj.2020.10.011)
+:::
+
+## 2019
+
+::: {.pub-entry}
+[**Effect of viscoelasticity on liquid sheet rupture**]{.pub-title}<br>
+<u>M. S. Bazzi</u>, M. S. Carvalho<br>
+[*Journal of Non-Newtonian Fluid Mechanics*]{.pub-venue} (2019).
+[doi:10.1016/j.jnnfm.2018.10.007](https://doi.org/10.1016/j.jnnfm.2018.10.007)
+:::
+
+## Selected presentations
+
+- **04/2025** — *Predicting TEVG outcomes: how scaffold design shapes vascular remodeling and blood flow.* Rising Star in Computational and Data Science Workshop, Oden Institute, UT Austin.
+- **04/2025** — *Multiscale, multiphysical modeling of blood flow, vascular mechanics, and growth and remodeling.* Invited seminar, UC San Diego.
+- **06/2024** — *Uniform growth laws recapitulate some aspects of ascending aortic aneurysm progression in Fbln4 mice.* SB3C conference.
+- **07/2023** — *Impact of sickle cell disease for oxygen transport in intracranial aneurysms.* 28th Congress of the European Society of Biomechanics.

@@ -1,0 +1,56 @@
+---
+title: "Software & projects"
+---
+
+Selected open-source projects. Full list on [GitHub](https://github.com/msbazzi).
+
+::: {.project-card}
+### SymRegGR
+[C++]{.tag} [Python]{.tag} [MATLAB]{.tag} [Scientific ML]{.tag}
+
+A **symbolic regression workflow** for tissue-engineered vascular graft growth
+and remodeling. SymRegGR identifies distinct production and degradation laws
+from graft properties and blood-flow variables, integrating data-driven
+discovery with mechanistic modeling to improve predictive accuracy for
+patient-specific vascular simulations.
+
+🔗 [github.com/msbazzi/SymRegGR](https://github.com/msbazzi/SymRegGR)
+:::
+
+::: {.project-card}
+### SymSEF
+[Python]{.tag} [Constitutive ML]{.tag} [FEA]{.tag}
+
+**Physics-grounded strain energy functions** for native vein and tissue-engineered
+vascular grafts, discovered via neural-network-based constitutive modeling
+(CANN-style). Sobol sensitivity indices simplify the learned model into a
+closed-form expression that captures the full inferior vena cava developmental
+dataset, and which integrates directly into FEA workflows.
+
+🔗 [github.com/msbazzi/SymSEF](https://github.com/msbazzi/SymSEF)
+:::
+
+::: {.project-card}
+### IVUS-processing
+[Python]{.tag} [OpenCV]{.tag} [VTK]{.tag} [Computer vision]{.tag}
+
+A **computer-vision pipeline for intravascular ultrasound** video analysis:
+frame extraction, probe masking, lumen/wall contour segmentation with
+smoothing, 3D reconstruction, and STL/surface mesh generation. The output
+feeds patient- and subject-specific FEA / CFD workflows.
+
+🔗 [github.com/msbazzi/IVUS-processing](https://github.com/msbazzi/IVUS-processing)
+:::
+
+::: {.project-card}
+### SimVascular / svFSI / svFSG / svMultiPhysics
+[C++]{.tag} [Fortran]{.tag} [Open source]{.tag}
+
+Contributor to the **SimVascular** open-source cardiovascular FEA / CFD / FSI
+tool chain — supporting blood flow, growth and remodeling, and multiphysics
+workflows. Added modules for mesh generation, soft-tissue constitutive
+mechanics, and fluid–solid–growth coupling, designed for integration with
+scientific ML pipelines and HPC environments.
+
+🔗 [simvascular.github.io](https://simvascular.github.io/)
+:::

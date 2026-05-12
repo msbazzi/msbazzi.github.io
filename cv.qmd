@@ -1,0 +1,77 @@
+---
+title: "Curriculum vitae"
+---
+
+[📄 Download CV (PDF)](Marisa_Bazzi_CV.pdf){.btn .btn-primary role="button"}
+
+## Profile
+
+Computational scientist with **7+ years of expertise** developing predictive,
+patient-specific models in biomedical engineering, vascular biomechanics, and
+device-adjacent workflows. I integrate mechanistic simulation — FEA, CFD, FSI,
+growth and remodeling, multiphysics transport — with scientific ML techniques
+(constitutive neural networks, symbolic regression) and computer-vision
+pipelines for MRI, IVUS, catheterization, and clinical data.
+
+## Education
+
+**Ph.D., Materials Science** — University of Minnesota–Twin Cities (2018–2024)
+*Thesis:* Multiscale, multiphysical phenomena in arterial remodeling. *Advisor:* Victor Barocas.
+
+**M.Sc., Mechanical Engineering** — PUC-Rio (2016–2018)
+*Dissertation:* Numerical investigation of viscoelastic liquid curtain breakup. *Advisor:* Marcio da Silveira Carvalho.
+
+**B.Sc., Mechanical Engineering** — PUC-Rio (2010–2015)
+*Undergraduate thesis:* Modeling of asphaltene deposition.
+
+## Experience
+
+### Postdoctoral Scholar — Stanford University, Department of Pediatrics
+*Palo Alto, CA · 02/2024 – present*
+
+- Leads hybrid mechanistic + AI/ML workflows to optimize tissue-engineered vascular graft (TEVG) design, integrating large-animal experimental data with patient-specific FEA / CFD / FSI simulations.
+- Applies scientific ML — constitutive artificial neural networks (CANNs) and symbolic regression — to develop interpretable growth-and-remodeling laws for native veins and TEVGs.
+- Contributes to **SimVascular** (C++), adding modules for mesh generation, soft-tissue constitutive mechanics, and fluid–solid–growth (FSG) multiphysics coupling.
+- Builds Python / C++ pipelines for multimodal data (MRI, IVUS, catheterization) feeding downstream ML, statistical analyses, and mechanistic simulations.
+- Built end-to-end IVUS computer-vision pipelines (frame extraction → probe masking → contour segmentation → 3D reconstruction → STL/mesh).
+
+### Graduate Research Assistant — University of Minnesota, Biomedical Engineering
+*Minneapolis, MN · 09/2018 – 01/2024*
+
+- Developed multiscale predictive models (hemodynamics, vascular mechanics, mass transport, growth and remodeling) for aortic aneurysm progression, patient-specific blood rheology, and TEVG performance — C++, Python, MATLAB, Ansys.
+- Built reproducible HPC simulation workflows on Linux / SLURM, generating synthetic and simulation-informed datasets for predictive model benchmarking.
+- Applied stress-based clustering, HMM-based domain segmentation, sensitivity analysis, and uncertainty quantification for automated parameter-space exploration.
+- Published 8+ peer-reviewed articles and a book chapter; presented at international conferences.
+
+### Research Scientist — Laboratory of Micro Hydrodynamics, PUC-Rio
+*Rio de Janeiro, Brazil · 01/2018 – 09/2018*
+
+- Developed and verified FEA / CFD solvers for multiphase flow, viscoelasticity, and compressibility modeling.
+- Built internal benchmarks for solver validation and code optimization.
+
+### Project Services Intern — Royal Dutch Shell
+*Rio de Janeiro, Brazil · 2014 – 2015*
+
+- Managed schedules, cost tracking, and performance reporting for deepwater project controls.
+- Created a subsea cost benchmarking database improving estimation accuracy by 15% for future field developments.
+
+## Skills
+
+**AI/ML & scientific ML** — deep learning, symbolic regression, neural networks (intermediate)
+**Mechanistic modeling** — FEA, CFD, FSI, growth and remodeling (advanced)
+**Programming** — Python (advanced), C++ (intermediate), MATLAB (advanced), Ansys/Comsol (intermediate)
+**Infrastructure** — HPC / cluster computing, Linux, SLURM (advanced)
+
+## Awards, fellowships & leadership
+
+- **2025** — CHIP T32 Training Grant
+- **2025** — Rising Star in Computational and Data Science (Oden Institute, UT Austin)
+- **2024** — Baker Postdoctoral Fellowship (Stanford)
+- **2023** — Equity and Inclusion Leadership Showcase
+- **2023** — President's Student Leadership and Service Award
+- **2022** — AHA Predoctoral Fellowship (rank 8%)
+- **2021** — CEMS TA Award
+- **2021** — Graduate Student Coordinator, CSE Women and BIPOC Initiatives
+- **2021** — Chair, DEI Working Group
+- **2018** — Second place, ABCM-EMBRAER Best M.Sc. Dissertation
+- **2017** — Faperj Nota 10 Fellowship

@@ -1,0 +1,177 @@
+[
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "A full and current list is available on Google Scholar. Selected peer-reviewed publications and book chapters below."
+  },
+  {
+    "objectID": "publications.html#section",
+    "href": "publications.html#section",
+    "title": "Publications",
+    "section": "2026",
+    "text": "2026\n\nAlterations in ascending aortic hemodynamics and aortic length correlate with sex-specific thoracic aortic aneurysm dilation and lifespan in a mouse model of severe Marfan syndrome K. K. Dwivedi, Y. Wu, M. S. Bazzi, et al. Computers in Biology and Medicine (2026). doi:10.1016/j.compbiomed.2026.111594"
+  },
+  {
+    "objectID": "publications.html#section-1",
+    "href": "publications.html#section-1",
+    "title": "Publications",
+    "section": "2025",
+    "text": "2025\n\nAscending aortic aneurysm growth in the Fbln4SMKO mouse is consistent with uniform growth laws M. S. Bazzi, H. Wiputra, W. Guan, V. H. Barocas Biomechanics and Modeling in Mechanobiology (2025). doi:10.1007/s10237-025-01972-5\n\n\nA technique to track scatterers from a computational model of complex flow to simulate continuous high-speed plane-wave ultrasound acquisitions J. A. Ketterling, G. Wahyulaksana, M. S. Bazzi, H. Wiputra IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control (2025). doi:10.1109/OJUFFC.2025.3618637\n\n\nComputational analysis of flow and transport suggests reduced oxygen levels within intracranial aneurysms, especially in individuals with sickle-cell disease M. S. Bazzi, H. Wiputra, D. K. Wood, V. H. Barocas Journal of Biomechanical Engineering (2025). doi:10.1115/1.4067323\n\n\nDynamic microphysiological systems to access sickle cell disease — a case study for disease modeling M. S. Bazzi, T. A. Balbino Academic Press — book chapter (2025). doi:10.1016/B978-0-443-13403-6.00013-1"
+  },
+  {
+    "objectID": "publications.html#section-2",
+    "href": "publications.html#section-2",
+    "title": "Publications",
+    "section": "2024",
+    "text": "2024\n\nA novel perfusion bioreactor promotes the expansion of pluripotent stem cells in a 3D-bioprinted tissue chamber E. R. Komosa, W. Lin, B. Mahadik, M. S. Bazzi, et al. Journal of Biofabrication (2024). doi:10.1088/1758-5090/ad084a"
+  },
+  {
+    "objectID": "publications.html#section-3",
+    "href": "publications.html#section-3",
+    "title": "Publications",
+    "section": "2022",
+    "text": "2022\n\nComputational and experimental comparison on the effects of flow-induced compression on the permeability of collagen gels C. S. Vidmar, M. S. Bazzi, V. K. Lai Journal of the Mechanical Behavior of Biomedical Materials (2022). doi:10.1016/j.jmbbm.2022.105107\n\n\nMouse-specific biofluidic and geometric biomarkers of ascending thoracic aortic aneurysm outcomes M. S. Bazzi, R. Balouchzadeh, S. N. Pavey, et al. Cardiovascular Engineering and Technology (2022). doi:10.1007/s13239-021-00600-4"
+  },
+  {
+    "objectID": "publications.html#section-4",
+    "href": "publications.html#section-4",
+    "title": "Publications",
+    "section": "2020",
+    "text": "2020\n\nA combined experimental–computational approach to quantify patient-specific blood rheology predicts altered systemic blood flow in sickle cell disease M. S. Bazzi, J. M. Valdez, V. H. Barocas, D. K. Wood Biophysical Journal (2020). doi:10.1016/j.bpj.2020.10.011"
+  },
+  {
+    "objectID": "publications.html#section-5",
+    "href": "publications.html#section-5",
+    "title": "Publications",
+    "section": "2019",
+    "text": "2019\n\nEffect of viscoelasticity on liquid sheet rupture M. S. Bazzi, M. S. Carvalho Journal of Non-Newtonian Fluid Mechanics (2019). doi:10.1016/j.jnnfm.2018.10.007"
+  },
+  {
+    "objectID": "publications.html#selected-presentations",
+    "href": "publications.html#selected-presentations",
+    "title": "Publications",
+    "section": "Selected presentations",
+    "text": "Selected presentations\n\n04/2025 — Predicting TEVG outcomes: how scaffold design shapes vascular remodeling and blood flow. Rising Star in Computational and Data Science Workshop, Oden Institute, UT Austin.\n04/2025 — Multiscale, multiphysical modeling of blood flow, vascular mechanics, and growth and remodeling. Invited seminar, UC San Diego.\n06/2024 — Uniform growth laws recapitulate some aspects of ascending aortic aneurysm progression in Fbln4 mice. SB3C conference.\n07/2023 — Impact of sickle cell disease for oxygen transport in intracranial aneurysms. 28th Congress of the European Society of Biomechanics."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Software & projects",
+    "section": "",
+    "text": "Selected open-source projects. Full list on GitHub.\n\nSymRegGR\nC++ Python MATLAB Scientific ML\nA symbolic regression workflow for tissue-engineered vascular graft growth and remodeling. SymRegGR identifies distinct production and degradation laws from graft properties and blood-flow variables, integrating data-driven discovery with mechanistic modeling to improve predictive accuracy for patient-specific vascular simulations.\n🔗 github.com/msbazzi/SymRegGR\n\n\nSymSEF\nPython Constitutive ML FEA\nPhysics-grounded strain energy functions for native vein and tissue-engineered vascular grafts, discovered via neural-network-based constitutive modeling (CANN-style). Sobol sensitivity indices simplify the learned model into a closed-form expression that captures the full inferior vena cava developmental dataset, and which integrates directly into FEA workflows.\n🔗 github.com/msbazzi/SymSEF\n\n\nIVUS-processing\nPython OpenCV VTK Computer vision\nA computer-vision pipeline for intravascular ultrasound video analysis: frame extraction, probe masking, lumen/wall contour segmentation with smoothing, 3D reconstruction, and STL/surface mesh generation. The output feeds patient- and subject-specific FEA / CFD workflows.\n🔗 github.com/msbazzi/IVUS-processing\n\n\nSimVascular / svFSI / svFSG / svMultiPhysics\nC++ Fortran Open source\nContributor to the SimVascular open-source cardiovascular FEA / CFD / FSI tool chain — supporting blood flow, growth and remodeling, and multiphysics workflows. Added modules for mesh generation, soft-tissue constitutive mechanics, and fluid–solid–growth coupling, designed for integration with scientific ML pipelines and HPC environments.\n🔗 simvascular.github.io"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "📄 Download CV (PDF)"
+  },
+  {
+    "objectID": "cv.html#profile",
+    "href": "cv.html#profile",
+    "title": "Curriculum vitae",
+    "section": "Profile",
+    "text": "Profile\nComputational scientist with 7+ years of expertise developing predictive, patient-specific models in biomedical engineering, vascular biomechanics, and device-adjacent workflows. I integrate mechanistic simulation — FEA, CFD, FSI, growth and remodeling, multiphysics transport — with scientific ML techniques (constitutive neural networks, symbolic regression) and computer-vision pipelines for MRI, IVUS, catheterization, and clinical data."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum vitae",
+    "section": "Education",
+    "text": "Education\nPh.D., Materials Science — University of Minnesota–Twin Cities (2018–2024) Thesis: Multiscale, multiphysical phenomena in arterial remodeling. Advisor: Victor Barocas.\nM.Sc., Mechanical Engineering — PUC-Rio (2016–2018) Dissertation: Numerical investigation of viscoelastic liquid curtain breakup. Advisor: Marcio da Silveira Carvalho.\nB.Sc., Mechanical Engineering — PUC-Rio (2010–2015) Undergraduate thesis: Modeling of asphaltene deposition."
+  },
+  {
+    "objectID": "cv.html#experience",
+    "href": "cv.html#experience",
+    "title": "Curriculum vitae",
+    "section": "Experience",
+    "text": "Experience\n\nPostdoctoral Scholar — Stanford University, Department of Pediatrics\nPalo Alto, CA · 02/2024 – present\n\nLeads hybrid mechanistic + AI/ML workflows to optimize tissue-engineered vascular graft (TEVG) design, integrating large-animal experimental data with patient-specific FEA / CFD / FSI simulations.\nApplies scientific ML — constitutive artificial neural networks (CANNs) and symbolic regression — to develop interpretable growth-and-remodeling laws for native veins and TEVGs.\nContributes to SimVascular (C++), adding modules for mesh generation, soft-tissue constitutive mechanics, and fluid–solid–growth (FSG) multiphysics coupling.\nBuilds Python / C++ pipelines for multimodal data (MRI, IVUS, catheterization) feeding downstream ML, statistical analyses, and mechanistic simulations.\nBuilt end-to-end IVUS computer-vision pipelines (frame extraction → probe masking → contour segmentation → 3D reconstruction → STL/mesh).\n\n\n\nGraduate Research Assistant — University of Minnesota, Biomedical Engineering\nMinneapolis, MN · 09/2018 – 01/2024\n\nDeveloped multiscale predictive models (hemodynamics, vascular mechanics, mass transport, growth and remodeling) for aortic aneurysm progression, patient-specific blood rheology, and TEVG performance — C++, Python, MATLAB, Ansys.\nBuilt reproducible HPC simulation workflows on Linux / SLURM, generating synthetic and simulation-informed datasets for predictive model benchmarking.\nApplied stress-based clustering, HMM-based domain segmentation, sensitivity analysis, and uncertainty quantification for automated parameter-space exploration.\nPublished 8+ peer-reviewed articles and a book chapter; presented at international conferences.\n\n\n\nResearch Scientist — Laboratory of Micro Hydrodynamics, PUC-Rio\nRio de Janeiro, Brazil · 01/2018 – 09/2018\n\nDeveloped and verified FEA / CFD solvers for multiphase flow, viscoelasticity, and compressibility modeling.\nBuilt internal benchmarks for solver validation and code optimization.\n\n\n\nProject Services Intern — Royal Dutch Shell\nRio de Janeiro, Brazil · 2014 – 2015\n\nManaged schedules, cost tracking, and performance reporting for deepwater project controls.\nCreated a subsea cost benchmarking database improving estimation accuracy by 15% for future field developments."
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "Curriculum vitae",
+    "section": "Skills",
+    "text": "Skills\nAI/ML & scientific ML — deep learning, symbolic regression, neural networks (intermediate) Mechanistic modeling — FEA, CFD, FSI, growth and remodeling (advanced) Programming — Python (advanced), C++ (intermediate), MATLAB (advanced), Ansys/Comsol (intermediate) Infrastructure — HPC / cluster computing, Linux, SLURM (advanced)"
+  },
+  {
+    "objectID": "cv.html#awards-fellowships-leadership",
+    "href": "cv.html#awards-fellowships-leadership",
+    "title": "Curriculum vitae",
+    "section": "Awards, fellowships & leadership",
+    "text": "Awards, fellowships & leadership\n\n2025 — CHIP T32 Training Grant\n2025 — Rising Star in Computational and Data Science (Oden Institute, UT Austin)\n2024 — Baker Postdoctoral Fellowship (Stanford)\n2023 — Equity and Inclusion Leadership Showcase\n2023 — President’s Student Leadership and Service Award\n2022 — AHA Predoctoral Fellowship (rank 8%)\n2021 — CEMS TA Award\n2021 — Graduate Student Coordinator, CSE Women and BIPOC Initiatives\n2021 — Chair, DEI Working Group\n2018 — Second place, ABCM-EMBRAER Best M.Sc. Dissertation\n2017 — Faperj Nota 10 Fellowship"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research builds predictive, patient-specific models of cardiovascular disease and tissue-engineered devices, fusing mechanistic simulation with data-driven discovery."
+  },
+  {
+    "objectID": "research.html#tissue-engineered-vascular-grafts-tevgs",
+    "href": "research.html#tissue-engineered-vascular-grafts-tevgs",
+    "title": "Research",
+    "section": "Tissue-engineered vascular grafts (TEVGs)",
+    "text": "Tissue-engineered vascular grafts (TEVGs)\nAt Stanford, I lead hybrid mechanistic + AI/ML workflows to optimize TEVG design by integrating large-animal experimental data with patient-specific FEA / CFD / FSI simulations. The goal is to predict graft remodeling outcomes and inform scaffold design before reaching the clinic."
+  },
+  {
+    "objectID": "research.html#scientific-machine-learning-for-soft-tissue-mechanics",
+    "href": "research.html#scientific-machine-learning-for-soft-tissue-mechanics",
+    "title": "Research",
+    "section": "Scientific machine learning for soft-tissue mechanics",
+    "text": "Scientific machine learning for soft-tissue mechanics\nI develop interpretable constitutive models for native and engineered vascular tissue using neural-network-based discovery (CANNs) and symbolic regression. By combining Sobol sensitivity analysis with these methods, learned models are simplified into closed-form strain energy functions that integrate directly into FEA workflows."
+  },
+  {
+    "objectID": "research.html#multimodal-imaging-pipelines",
+    "href": "research.html#multimodal-imaging-pipelines",
+    "title": "Research",
+    "section": "Multimodal imaging pipelines",
+    "text": "Multimodal imaging pipelines\nI build computer-vision pipelines for intravascular ultrasound (IVUS): frame extraction, probe masking, contour segmentation and smoothing, 3D reconstruction, and STL/mesh generation. The output is subject-specific geometry that drives FEA and CFD simulations within SimVascular.\nI also work with MRI and catheterization data, harmonizing them into pipelines that feed both mechanistic models and downstream ML."
+  },
+  {
+    "objectID": "research.html#multiscale-modeling-of-vascular-disease",
+    "href": "research.html#multiscale-modeling-of-vascular-disease",
+    "title": "Research",
+    "section": "Multiscale modeling of vascular disease",
+    "text": "Multiscale modeling of vascular disease\nDuring my Ph.D., I developed multiscale predictive models of:\n\nAortic aneurysm progression — including sex-specific dilation in Marfan and Fbln4-SMKO mouse models\nPatient-specific blood rheology — particularly in sickle-cell disease\nIntracranial aneurysm oxygen transport — coupling flow, transport, and disease physiology\n\nThese were implemented in C++, Python, MATLAB, and Ansys, and deployed on Linux/SLURM HPC environments."
+  },
+  {
+    "objectID": "research.html#open-source-contributions",
+    "href": "research.html#open-source-contributions",
+    "title": "Research",
+    "section": "Open-source contributions",
+    "text": "Open-source contributions\nI contribute to the SimVascular ecosystem (C++ / Fortran), including the svFSI, svFSG, and svMultiPhysics solvers — adding modules for mesh generation, soft-tissue constitutive mechanics, and fluid–solid–growth multiphysics coupling."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Marisa Schmidt Bazzi",
+    "section": "",
+    "text": "📍 Palo Alto, CA\n\n\n✉️ msbazzi@stanford.edu\n\n\n🎓 Google Scholar\n\n\n💻 GitHub\n\n\n🔗 LinkedIn\n\n\n\n\n\nI am a Postdoctoral Scholar at Stanford University, Department of Pediatrics, working at the intersection of vascular biomechanics, scientific machine learning, and patient-specific simulation.\nMy research combines mechanistic modeling — finite element analysis, computational fluid dynamics, fluid–structure interaction, and growth-and-remodeling theory — with data-driven techniques such as constitutive neural networks and symbolic regression. I apply these tools to multimodal clinical data (MRI, IVUS, catheterization) to predict cardiovascular disease progression and guide the design of tissue-engineered vascular grafts.\nI contribute to the open-source SimVascular platform and build reproducible Python and C++ workflows for high-performance computing environments.\nI earned my Ph.D. in Materials Science from the University of Minnesota under Victor Barocas, and previously trained in Mechanical Engineering at PUC-Rio."
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Marisa Schmidt Bazzi",
+    "section": "",
+    "text": "I am a Postdoctoral Scholar at Stanford University, Department of Pediatrics, working at the intersection of vascular biomechanics, scientific machine learning, and patient-specific simulation.\nMy research combines mechanistic modeling — finite element analysis, computational fluid dynamics, fluid–structure interaction, and growth-and-remodeling theory — with data-driven techniques such as constitutive neural networks and symbolic regression. I apply these tools to multimodal clinical data (MRI, IVUS, catheterization) to predict cardiovascular disease progression and guide the design of tissue-engineered vascular grafts.\nI contribute to the open-source SimVascular platform and build reproducible Python and C++ workflows for high-performance computing environments.\nI earned my Ph.D. in Materials Science from the University of Minnesota under Victor Barocas, and previously trained in Mechanical Engineering at PUC-Rio."
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Marisa Schmidt Bazzi",
+    "section": "Research interests",
+    "text": "Research interests\n\nVascular biomechanics & growth and remodeling — aneurysm progression, tissue-engineered vascular grafts\nScientific machine learning — constitutive neural networks, symbolic regression, physics-informed surrogates\nMultimodal medical imaging — IVUS, MRI, catheterization-driven simulation pipelines\nMultiphysics simulation — FEA / CFD / FSI coupling, fluid–solid–growth (FSG) modeling\nOpen-source scientific software — contributions to SimVascular, svFSI, svFSG, svMultiPhysics"
+  },
+  {
+    "objectID": "index.html#recent-news",
+    "href": "index.html#recent-news",
+    "title": "Marisa Schmidt Bazzi",
+    "section": "Recent news",
+    "text": "Recent news\n\n2026/04 — New paper out in Computers in Biology and Medicine on aortic hemodynamics and Marfan syndrome.\n2025 — Selected as a Rising Star in Computational and Data Science (Oden Institute, UT Austin).\n2025 — Awarded the CHIP T32 Training Grant.\n2024 — Awarded the Baker Postdoctoral Fellowship at Stanford."
+  }
+]

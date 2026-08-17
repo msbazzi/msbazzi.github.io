@@ -56,6 +56,34 @@
     "text": "Selected presentations\n\n04/2025 — Predicting TEVG outcomes: how scaffold design shapes vascular remodeling and blood flow. Rising Star in Computational and Data Science Workshop, Oden Institute, UT Austin.\n04/2025 — Multiscale, multiphysical modeling of blood flow, vascular mechanics, and growth and remodeling. Invited seminar, UC San Diego.\n06/2024 — Uniform growth laws recapitulate some aspects of ascending aortic aneurysm progression in Fbln4 mice. SB3C conference.\n07/2023 — Impact of sickle cell disease for oxygen transport in intracranial aneurysms. 28th Congress of the European Society of Biomechanics."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Marisa Schmidt Bazzi",
+    "section": "",
+    "text": "📍 Palo Alto, CA\n\n\n✉️ msbazzi@stanford.edu\n\n\n🎓 Google Scholar\n\n\n💻 GitHub\n\n\n🔗 LinkedIn\n\n\n\n\n\nI am a Postdoctoral Scholar at Stanford University, Department of Pediatrics, working at the intersection of vascular biomechanics, scientific machine learning, and patient-specific simulation.\nMy research combines mechanistic modeling — finite element analysis, computational fluid dynamics, fluid–structure interaction, and growth-and-remodeling theory — with data-driven techniques such as constitutive neural networks and symbolic regression. I apply these tools to multimodal clinical data (MRI, IVUS, catheterization) to predict cardiovascular disease progression and guide the design of tissue-engineered vascular grafts.\nI contribute to the open-source SimVascular platform and build reproducible Python and C++ workflows for high-performance computing environments.\nI earned my Ph.D. in Materials Science from the University of Minnesota under Victor Barocas, and previously trained in Mechanical Engineering at PUC-Rio."
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Marisa Schmidt Bazzi",
+    "section": "",
+    "text": "I am a Postdoctoral Scholar at Stanford University, Department of Pediatrics, working at the intersection of vascular biomechanics, scientific machine learning, and patient-specific simulation.\nMy research combines mechanistic modeling — finite element analysis, computational fluid dynamics, fluid–structure interaction, and growth-and-remodeling theory — with data-driven techniques such as constitutive neural networks and symbolic regression. I apply these tools to multimodal clinical data (MRI, IVUS, catheterization) to predict cardiovascular disease progression and guide the design of tissue-engineered vascular grafts.\nI contribute to the open-source SimVascular platform and build reproducible Python and C++ workflows for high-performance computing environments.\nI earned my Ph.D. in Materials Science from the University of Minnesota under Victor Barocas, and previously trained in Mechanical Engineering at PUC-Rio."
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Marisa Schmidt Bazzi",
+    "section": "Research interests",
+    "text": "Research interests\n\nVascular biomechanics & growth and remodeling — aneurysm progression, tissue-engineered vascular grafts\nScientific machine learning — constitutive neural networks, symbolic regression, physics-informed surrogates\nMultimodal medical imaging — IVUS, MRI, catheterization-driven simulation pipelines\nMultiphysics simulation — FEA / CFD / FSI coupling, fluid–solid–growth (FSG) modeling\nOpen-source scientific software — contributions to SimVascular, svFSI, svFSG, svMultiPhysics"
+  },
+  {
+    "objectID": "index.html#recent-news",
+    "href": "index.html#recent-news",
+    "title": "Marisa Schmidt Bazzi",
+    "section": "Recent news",
+    "text": "Recent news\n\n2026/04 — New paper out in Computers in Biology and Medicine on aortic hemodynamics and Marfan syndrome.\n2025 — Selected as a Rising Star in Computational and Data Science (Oden Institute, UT Austin).\n2025 — Awarded the CHIP T32 Training Grant.\n2024 — Awarded the Baker Postdoctoral Fellowship at Stanford."
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Software & projects",
@@ -145,33 +173,5 @@
     "title": "Research",
     "section": "Open-source contributions",
     "text": "Open-source contributions\nI contribute to the SimVascular ecosystem (C++ / Fortran), including the svFSI, svFSG, and svMultiPhysics solvers — adding modules for mesh generation, soft-tissue constitutive mechanics, and fluid–solid–growth multiphysics coupling."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Marisa Schmidt Bazzi",
-    "section": "",
-    "text": "📍 Palo Alto, CA\n\n\n✉️ msbazzi@stanford.edu\n\n\n🎓 Google Scholar\n\n\n💻 GitHub\n\n\n🔗 LinkedIn\n\n\n\n\n\nI am a Postdoctoral Scholar at Stanford University, Department of Pediatrics, working at the intersection of vascular biomechanics, scientific machine learning, and patient-specific simulation.\nMy research combines mechanistic modeling — finite element analysis, computational fluid dynamics, fluid–structure interaction, and growth-and-remodeling theory — with data-driven techniques such as constitutive neural networks and symbolic regression. I apply these tools to multimodal clinical data (MRI, IVUS, catheterization) to predict cardiovascular disease progression and guide the design of tissue-engineered vascular grafts.\nI contribute to the open-source SimVascular platform and build reproducible Python and C++ workflows for high-performance computing environments.\nI earned my Ph.D. in Materials Science from the University of Minnesota under Victor Barocas, and previously trained in Mechanical Engineering at PUC-Rio."
-  },
-  {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
-    "title": "Marisa Schmidt Bazzi",
-    "section": "",
-    "text": "I am a Postdoctoral Scholar at Stanford University, Department of Pediatrics, working at the intersection of vascular biomechanics, scientific machine learning, and patient-specific simulation.\nMy research combines mechanistic modeling — finite element analysis, computational fluid dynamics, fluid–structure interaction, and growth-and-remodeling theory — with data-driven techniques such as constitutive neural networks and symbolic regression. I apply these tools to multimodal clinical data (MRI, IVUS, catheterization) to predict cardiovascular disease progression and guide the design of tissue-engineered vascular grafts.\nI contribute to the open-source SimVascular platform and build reproducible Python and C++ workflows for high-performance computing environments.\nI earned my Ph.D. in Materials Science from the University of Minnesota under Victor Barocas, and previously trained in Mechanical Engineering at PUC-Rio."
-  },
-  {
-    "objectID": "index.html#research-interests",
-    "href": "index.html#research-interests",
-    "title": "Marisa Schmidt Bazzi",
-    "section": "Research interests",
-    "text": "Research interests\n\nVascular biomechanics & growth and remodeling — aneurysm progression, tissue-engineered vascular grafts\nScientific machine learning — constitutive neural networks, symbolic regression, physics-informed surrogates\nMultimodal medical imaging — IVUS, MRI, catheterization-driven simulation pipelines\nMultiphysics simulation — FEA / CFD / FSI coupling, fluid–solid–growth (FSG) modeling\nOpen-source scientific software — contributions to SimVascular, svFSI, svFSG, svMultiPhysics"
-  },
-  {
-    "objectID": "index.html#recent-news",
-    "href": "index.html#recent-news",
-    "title": "Marisa Schmidt Bazzi",
-    "section": "Recent news",
-    "text": "Recent news\n\n2026/04 — New paper out in Computers in Biology and Medicine on aortic hemodynamics and Marfan syndrome.\n2025 — Selected as a Rising Star in Computational and Data Science (Oden Institute, UT Austin).\n2025 — Awarded the CHIP T32 Training Grant.\n2024 — Awarded the Baker Postdoctoral Fellowship at Stanford."
   }
 ]

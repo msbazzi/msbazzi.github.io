@@ -34,11 +34,11 @@ Bazzi MS, Adil D, Humphrey JD, Marsden AL.
 
 ::: {.paper-project #ivc-development}
 
-<div class="paper-project-media paper-project-media-pending" role="img" aria-label="Image or video for how veins grow during development to be added">
-<span>Image or video coming soon</span>
+<div class="paper-project-media">
+<a href="assets/projects/ivc-development.png" target="_blank" rel="noopener" aria-label="Open the vein development study overview at full size">
+<img src="assets/projects/ivc-development.png" alt="Overview of the juvenile sheep IVC development study, showing age groups from 3 to 28 weeks; in vivo angiography, intravascular ultrasound, MRI, and catheterization; ex vivo biaxial testing; and subject-specific lumen and wall reconstruction and mechanical analysis." width="1800" height="1215" loading="lazy" decoding="async">
+</a>
 </div>
-
-<!-- Suggested visual: Age-dependent IVC geometry, imaging montage, or flow animation. Replace the pending media block with a figure with descriptive alt text, or a video with controls and preload="metadata". -->
 
 ::: {.paper-project-content}
 
@@ -59,11 +59,11 @@ Bazzi MS et al.
 
 ::: {.paper-project #aortic-growth}
 
-<div class="paper-project-media paper-project-media-pending" role="img" aria-label="Image or video for modeling aortic aneurysm growth to be added">
-<span>Image or video coming soon</span>
+<div class="paper-project-media">
+<a href="assets/projects/aortic-growth.png" target="_blank" rel="noopener" aria-label="Open the aortic growth and remodeling model image at full size">
+<img src="assets/projects/aortic-growth.png" alt="Three-dimensional aortic model for the aneurysm growth and remodeling project, with a blue inner region enclosed by a translucent vessel wall." width="316" height="478" style="max-width: 316px; margin: 0 auto;" loading="lazy" decoding="async">
+</a>
 </div>
-
-<!-- Suggested visual: Aortic growth animation or longitudinal geometry comparison. Replace the pending media block with a figure with descriptive alt text, or a video with controls and preload="metadata". -->
 
 ::: {.paper-project-content}
 

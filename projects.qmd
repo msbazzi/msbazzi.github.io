@@ -9,11 +9,11 @@ Selected studies connecting cardiovascular mechanics, computational modeling, an
 
 ::: {.paper-project #vein-mechanics}
 
-<div class="paper-project-media paper-project-media-pending" role="img" aria-label="Image or video for learning the mechanical behavior of veins to be added">
-<span>Image or video coming soon</span>
+<div class="paper-project-media">
+<a href="assets/projects/vein-mechanics-cann.png" target="_blank" rel="noopener" aria-label="Open the vein mechanics CANN workflow figure at full size">
+<img src="assets/projects/vein-mechanics-cann.png" alt="Six-stage workflow for discovering a compact vein constitutive model: biaxial testing, CANN training, sensitivity analysis, decorrelation, family collapse, and evaluation against measured stress–stretch responses." width="1800" height="996" decoding="async">
+</a>
 </div>
-
-<!-- Suggested visual: Biaxial experiment and model-fit figure, or a vein simulation video. Replace the pending media block with a figure with descriptive alt text, or a video with controls and preload="metadata". -->
 
 ::: {.paper-project-content}
 

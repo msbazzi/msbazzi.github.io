@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Software &amp; projects – Marisa Schmidt Bazzi</title>
+<title>Research projects – Marisa Schmidt Bazzi</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -148,24 +148,13 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#symreggr" id="toc-symreggr" class="nav-link active" data-scroll-target="#symreggr">SymRegGR</a></li>
-  <li><a href="#symsef" id="toc-symsef" class="nav-link" data-scroll-target="#symsef">SymSEF</a></li>
-  <li><a href="#ivus-processing" id="toc-ivus-processing" class="nav-link" data-scroll-target="#ivus-processing">IVUS-processing</a></li>
-  <li><a href="#simvascular-svfsi-svfsg-svmultiphysics" id="toc-simvascular-svfsi-svfsg-svmultiphysics" class="nav-link" data-scroll-target="#simvascular-svfsi-svfsg-svmultiphysics">SimVascular / svFSI / svFSG / svMultiPhysics</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Software &amp; projects</h1>
+<h1 class="title">Research projects</h1>
 </div>
 
 
@@ -182,31 +171,132 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Selected open-source projects. Full list on <a href="https://github.com/msbazzi">GitHub</a>.</p>
-<section id="symreggr" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="symreggr">SymRegGR</h3>
-<p><span class="tag">C++</span> <span class="tag">Python</span> <span class="tag">MATLAB</span> <span class="tag">Scientific ML</span></p>
-<p>A <strong>symbolic regression workflow</strong> for tissue-engineered vascular graft growth and remodeling. SymRegGR identifies distinct production and degradation laws from graft properties and blood-flow variables, integrating data-driven discovery with mechanistic modeling to improve predictive accuracy for patient-specific vascular simulations.</p>
-<p>🔗 <a href="https://github.com/msbazzi/SymRegGR">github.com/msbazzi/SymRegGR</a></p>
+<p>Selected studies and ongoing research connecting cardiovascular mechanics, computational modeling, and experiments.</p>
+<div class="paper-projects">
+<div id="tevg-fluid-solid-growth" class="paper-project">
+<div class="paper-project-media">
+<p><a href="assets/projects/fsg-framework.png" target="_blank" rel="noopener" aria-label="Open the fluid–solid–growth framework schematic at full size"> <img src="assets/projects/fsg-framework.png" alt="Fluid–solid–growth framework coupling blood flow, structural mechanics, and growth and remodeling, alongside an illustrative change in an idealized tissue-engineered vascular graft." width="1200" height="675" decoding="async"> </a></p>
+</div>
+<div class="paper-project-content">
+<p><span class="paper-project-status">Ongoing research</span></p>
+<section id="predicting-tissue-engineered-vascular-graft-remodeling" class="level2">
+<h2 class="anchored" data-anchor-id="predicting-tissue-engineered-vascular-graft-remodeling">Predicting tissue-engineered vascular graft remodeling</h2>
+<p>Tissue-engineered vascular grafts could grow with a child, but excessive tissue formation can cause narrowing. I am developing a framework that combines interpretable, physics-constrained machine learning with subject-specific fluid–solid–growth simulations to predict how these grafts remodel. Using longitudinal experimental data, the project aims to identify shared remodeling laws that connect scaffold properties, blood flow, wall mechanics, and tissue formation. The goal is to predict stenosis risk and virtually screen graft designs to guide the development of growing vascular replacements for children with congenital heart disease.</p>
 </section>
-<section id="symsef" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="symsef">SymSEF</h3>
-<p><span class="tag">Python</span> <span class="tag">Constitutive ML</span> <span class="tag">FEA</span></p>
-<p><strong>Physics-grounded strain energy functions</strong> for native vein and tissue-engineered vascular grafts, discovered via neural-network-based constitutive modeling (CANN-style). Sobol sensitivity indices simplify the learned model into a closed-form expression that captures the full inferior vena cava developmental dataset, and which integrates directly into FEA workflows.</p>
-<p>🔗 <a href="https://github.com/msbazzi/SymSEF">github.com/msbazzi/SymSEF</a></p>
+</div>
+</div>
+<div id="vein-mechanics" class="paper-project">
+<div class="paper-project-media">
+<p><a href="assets/projects/vein-mechanics-cann.png" target="_blank" rel="noopener" aria-label="Open the vein mechanics CANN workflow figure at full size"> <img src="assets/projects/vein-mechanics-cann.png" alt="Six-stage workflow for discovering a compact vein constitutive model: biaxial testing, CANN training, sensitivity analysis, decorrelation, family collapse, and evaluation against measured stress–stretch responses." width="1800" height="996" decoding="async"> </a></p>
+</div>
+<div class="paper-project-content">
+<p><span class="paper-project-status">Submitted</span></p>
+<section id="learning-the-mechanical-behavior-of-veins" class="level2">
+<h2 class="anchored" data-anchor-id="learning-the-mechanical-behavior-of-veins">Learning the mechanical behavior of veins</h2>
+<p>How can we describe the complex mechanical behavior of veins with a compact, interpretable model? We combine biaxial testing with constitutive neural networks to discover strain-energy functions that capture venous mechanics and can be used in computational simulations.</p>
+<div class="paper-project-citation">
+<p><strong>Data-driven discovery of constitutive models for vein mechanics using constitutive neural networks</strong><br>
+Bazzi MS, Adil D, Humphrey JD, Marsden AL.</p>
+</div>
+<p><em>Manuscript submitted.</em></p>
 </section>
-<section id="ivus-processing" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="ivus-processing">IVUS-processing</h3>
-<p><span class="tag">Python</span> <span class="tag">OpenCV</span> <span class="tag">VTK</span> <span class="tag">Computer vision</span></p>
-<p>A <strong>computer-vision pipeline for intravascular ultrasound</strong> video analysis: frame extraction, probe masking, lumen/wall contour segmentation with smoothing, 3D reconstruction, and STL/surface mesh generation. The output feeds patient- and subject-specific FEA / CFD workflows.</p>
-<p>🔗 <a href="https://github.com/msbazzi/IVUS-processing">github.com/msbazzi/IVUS-processing</a></p>
+</div>
+</div>
+<div id="ivc-development" class="paper-project">
+<div class="paper-project-media">
+<p><a href="assets/projects/ivc-development.png" target="_blank" rel="noopener" aria-label="Open the vein development study overview at full size"> <img src="assets/projects/ivc-development.png" alt="Overview of the juvenile sheep IVC development study, showing age groups from 3 to 28 weeks; in vivo angiography, intravascular ultrasound, MRI, and catheterization; ex vivo biaxial testing; and subject-specific lumen and wall reconstruction and mechanical analysis." width="1800" height="1215" loading="lazy" decoding="async"> </a></p>
+</div>
+<div class="paper-project-content">
+<p><span class="paper-project-status">Submitted</span></p>
+<section id="how-veins-grow-during-development" class="level2">
+<h2 class="anchored" data-anchor-id="how-veins-grow-during-development">How veins grow during development</h2>
+<p>As the body grows, veins must adapt to changing size and circulatory demands. This study combines imaging, hemodynamic measurements, and mechanical testing in juvenile sheep to characterize how inferior vena cava geometry and function evolve during development.</p>
+<div class="paper-project-citation">
+<p><strong>Experimental–computational characterization of somatic growth of the inferior vena cava in juvenile sheep</strong><br>
+Bazzi MS et al.</p>
+</div>
+<p><em>Manuscript submitted.</em></p>
 </section>
-<section id="simvascular-svfsi-svfsg-svmultiphysics" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="simvascular-svfsi-svfsg-svmultiphysics">SimVascular / svFSI / svFSG / svMultiPhysics</h3>
-<p><span class="tag">C++</span> <span class="tag">Fortran</span> <span class="tag">Open source</span></p>
-<p>Contributor to the <strong>SimVascular</strong> open-source cardiovascular FEA / CFD / FSI tool chain — supporting blood flow, growth and remodeling, and multiphysics workflows. Added modules for mesh generation, soft-tissue constitutive mechanics, and fluid–solid–growth coupling, designed for integration with scientific ML pipelines and HPC environments.</p>
-<p>🔗 <a href="https://simvascular.github.io/">simvascular.github.io</a></p>
+</div>
+</div>
+<div id="aortic-growth" class="paper-project">
+<div class="paper-project-media">
+<p><a href="assets/projects/aortic-growth.png" target="_blank" rel="noopener" aria-label="Open the aortic growth and remodeling model image at full size"> <img src="assets/projects/aortic-growth.png" alt="Three-dimensional aortic model for the aneurysm growth and remodeling project, with a blue inner region enclosed by a translucent vessel wall." width="316" height="478" style="max-width: 316px; margin: 0 auto;" loading="lazy" decoding="async"> </a></p>
+</div>
+<div class="paper-project-content">
+<p><span class="paper-project-status">Published · 2025</span></p>
+<section id="modeling-aortic-aneurysm-growth" class="level2">
+<h2 class="anchored" data-anchor-id="modeling-aortic-aneurysm-growth">Modeling aortic aneurysm growth</h2>
+<p>Can a shared set of growth laws explain how an aneurysm develops? We use computational models to connect blood flow, vessel mechanics, and arterial remodeling, testing whether uniform growth laws can reproduce aspects of ascending aortic aneurysm progression in a mouse model.</p>
+<div class="paper-project-citation">
+<p><strong>Ascending aortic aneurysm growth in the Fbln4SMKO mouse is consistent with uniform growth laws</strong><br>
+Bazzi MS, Wiputra H, Guan W, Barocas VH. Biomechanics and Modeling in Mechanobiology.</p>
+</div>
+<p><a href="https://doi.org/10.1007/s10237-025-01972-5" class="btn btn-outline-primary">Read paper</a></p>
 </section>
+</div>
+</div>
+<div id="aneurysm-oxygen" class="paper-project">
+<figure class="paper-project-media figure">
+<a href="assets/projects/aneurysm-oxygen.jpg" target="_blank" rel="noopener" aria-label="Open figure at full size"> <img src="assets/projects/aneurysm-oxygen.jpg" alt="Figure 3 comparing normalized and total oxygen concentration and wall oxygen transport in nonsickle and sickle-cell aneurysm simulations." width="768" height="900" loading="lazy" decoding="async" class="figure-img"> </a>
+<figcaption>
+Oxygen availability in nonsickle and sickle-cell aneurysm simulations. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11748962/#F3" target="_blank" rel="noopener">Bazzi et al., 2025, Fig. 3</a>.
+</figcaption>
+</figure>
+<div class="paper-project-content">
+<p><span class="paper-project-status">Published · 2025</span></p>
+<section id="oxygen-transport-inside-cerebral-aneurysms" class="level2">
+<h2 class="anchored" data-anchor-id="oxygen-transport-inside-cerebral-aneurysms">Oxygen transport inside cerebral aneurysms</h2>
+<p>Blood-flow patterns influence how oxygen reaches an aneurysm wall. We couple flow and transport simulations to investigate oxygen availability within intracranial aneurysms and how the altered blood properties associated with sickle-cell disease may affect this environment.</p>
+<div class="paper-project-citation">
+<p><strong>Computational analysis of flow and transport suggests reduced oxygen levels within intracranial aneurysms, especially in individuals with sickle-cell disease</strong><br>
+Bazzi MS, Wiputra H, Wood DK, Barocas VH. Journal of Biomechanical Engineering.</p>
+</div>
+<p><a href="https://doi.org/10.1115/1.4067323" class="btn btn-outline-primary">Read paper</a></p>
+</section>
+</div>
+</div>
+<div id="aneurysm-biomarkers" class="paper-project">
+<figure class="paper-project-media figure">
+<a href="assets/projects/aneurysm-biomarkers.jpg" target="_blank" rel="noopener" aria-label="Open figure at full size"> <img src="assets/projects/aneurysm-biomarkers.jpg" alt="Figure 4 showing oscillatory shear index distributions in ten mouse-specific aortic models, ordered by lifespan." width="1050" height="850" loading="lazy" decoding="async" class="figure-img"> </a>
+<figcaption>
+Mouse-specific aortic models and oscillatory shear index. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9304450/#F4" target="_blank" rel="noopener">Bazzi et al., 2022, Fig. 4</a>.
+</figcaption>
+</figure>
+<div class="paper-project-content">
+<p><span class="paper-project-status">Published · 2022</span></p>
+<section id="finding-mechanical-markers-of-aneurysm-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="finding-mechanical-markers-of-aneurysm-outcomes">Finding mechanical markers of aneurysm outcomes</h2>
+<p>Aneurysm geometry and blood flow may provide clues about disease outcomes. We build mouse-specific computational models to investigate geometric and biofluidic measures as candidate biomarkers of ascending thoracic aortic aneurysms.</p>
+<div class="paper-project-citation">
+<p><strong>Experimental and mouse-specific computational models of the Fbln4SMKO mouse to identify potential biomarkers for ascending thoracic aortic aneurysm</strong><br>
+Bazzi MS, Balouchzadeh R, Pavey SN, et al.&nbsp;Cardiovascular Engineering and Technology.</p>
+</div>
+<p><a href="https://doi.org/10.1007/s13239-021-00600-4" class="btn btn-outline-primary">Read paper</a></p>
+</section>
+</div>
+</div>
+<div id="sickle-cell-rheology" class="paper-project">
+<figure class="paper-project-media figure">
+<a href="assets/projects/sickle-cell-rheology.jpg" target="_blank" rel="noopener" aria-label="Open figure at full size"> <img src="assets/projects/sickle-cell-rheology.jpg" alt="Figure 1 showing controlled microfluidic blood-flow experiments, velocity tracking, and iterative fitting of a computational rheology model." width="750" height="302" loading="lazy" decoding="async" class="figure-img"> </a>
+<figcaption>
+Connecting microfluidic blood-flow measurements to a rheological model. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7732763/#fig1" target="_blank" rel="noopener">Bazzi et al., 2020, Fig. 1</a>.
+</figcaption>
+</figure>
+<div class="paper-project-content">
+<p><span class="paper-project-status">Published · 2020</span></p>
+<section id="from-blood-rheology-to-patient-specific-flow" class="level2">
+<h2 class="anchored" data-anchor-id="from-blood-rheology-to-patient-specific-flow">From blood rheology to patient-specific flow</h2>
+<p>How do changes in blood rheology translate into changes in circulation? We combine experimental measurements with computational modeling to quantify patient-specific blood properties and investigate their consequences for systemic blood flow in sickle cell disease.</p>
+<div class="paper-project-citation">
+<p><strong>An Experimental-Computational Approach to Quantify Blood Rheology in Sickle Cell Disease</strong><br>
+Bazzi MS, Valdez JM, Barocas VH, Wood DK. Biophysical Journal.</p>
+</div>
+<p><a href="https://doi.org/10.1016/j.bpj.2020.10.011" class="btn btn-outline-primary">Read paper</a></p>
+</section>
+</div>
+</div>
+</div>
 
 
 

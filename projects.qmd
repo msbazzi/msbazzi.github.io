@@ -3,9 +3,28 @@ title: "Research projects"
 toc: false
 ---
 
-Selected studies connecting cardiovascular mechanics, computational modeling, and experiments. Each project highlights the question behind a paper.
+Selected studies and ongoing research connecting cardiovascular mechanics, computational modeling, and experiments.
 
 :::: {.paper-projects}
+
+::: {.paper-project #tevg-fluid-solid-growth}
+
+<div class="paper-project-media">
+<a href="assets/projects/fsg-framework.png" target="_blank" rel="noopener" aria-label="Open the fluid–solid–growth framework schematic at full size">
+<img src="assets/projects/fsg-framework.png" alt="Fluid–solid–growth framework coupling blood flow, structural mechanics, and growth and remodeling, alongside an illustrative change in an idealized tissue-engineered vascular graft." width="1200" height="675" decoding="async">
+</a>
+</div>
+
+::: {.paper-project-content}
+
+[Ongoing research]{.paper-project-status}
+
+## Predicting tissue-engineered vascular graft remodeling
+
+Tissue-engineered vascular grafts could grow with a child, but excessive tissue formation can cause narrowing. I am developing a framework that combines interpretable, physics-constrained machine learning with subject-specific fluid–solid–growth simulations to predict how these grafts remodel. Using longitudinal experimental data, the project aims to identify shared remodeling laws that connect scaffold properties, blood flow, wall mechanics, and tissue formation. The goal is to predict stenosis risk and virtually screen graft designs to guide the development of growing vascular replacements for children with congenital heart disease.
+
+:::
+:::
 
 ::: {.paper-project #vein-mechanics}
 

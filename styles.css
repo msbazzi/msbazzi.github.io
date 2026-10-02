@@ -161,3 +161,13 @@ h2 {
     gap: 1.2rem;
   }
 }
+
+.paper-project figure.paper-project-media {
+  margin: 0;
+}
+.paper-project-media figcaption {
+  padding: 0.65rem 0.8rem;
+  color: #555;
+  font-size: 0.78rem;
+  line-height: 1.45;
+}

@@ -84,11 +84,12 @@ Bazzi MS, Wiputra H, Guan W, Barocas VH. Biomechanics and Modeling in Mechanobio
 
 ::: {.paper-project #aneurysm-oxygen}
 
-<div class="paper-project-media paper-project-media-pending" role="img" aria-label="Image or video for oxygen transport inside cerebral aneurysms to be added">
-<span>Image or video coming soon</span>
-</div>
-
-<!-- Suggested visual: Oxygen concentration map or oxygen-transport animation. Replace the pending media block with a figure with descriptive alt text, or a video with controls and preload="metadata". -->
+<figure class="paper-project-media">
+<a href="assets/projects/aneurysm-oxygen.jpg" target="_blank" rel="noopener" aria-label="Open figure at full size">
+<img src="assets/projects/aneurysm-oxygen.jpg" alt="Figure 3 comparing normalized and total oxygen concentration and wall oxygen transport in nonsickle and sickle-cell aneurysm simulations." width="768" height="900" loading="lazy" decoding="async">
+</a>
+<figcaption>Oxygen availability in nonsickle and sickle-cell aneurysm simulations. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11748962/#F3" target="_blank" rel="noopener">Bazzi et al., 2025, Fig. 3</a>.</figcaption>
+</figure>
 
 ::: {.paper-project-content}
 
@@ -109,11 +110,12 @@ Bazzi MS, Wiputra H, Wood DK, Barocas VH. Journal of Biomechanical Engineering.
 
 ::: {.paper-project #aneurysm-biomarkers}
 
-<div class="paper-project-media paper-project-media-pending" role="img" aria-label="Image or video for finding mechanical markers of aneurysm outcomes to be added">
-<span>Image or video coming soon</span>
-</div>
-
-<!-- Suggested visual: Subject-specific aortic models with flow or wall-shear-stress results. Replace the pending media block with a figure with descriptive alt text, or a video with controls and preload="metadata". -->
+<figure class="paper-project-media">
+<a href="assets/projects/aneurysm-biomarkers.jpg" target="_blank" rel="noopener" aria-label="Open figure at full size">
+<img src="assets/projects/aneurysm-biomarkers.jpg" alt="Figure 4 showing oscillatory shear index distributions in ten mouse-specific aortic models, ordered by lifespan." width="1050" height="850" loading="lazy" decoding="async">
+</a>
+<figcaption>Mouse-specific aortic models and oscillatory shear index. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9304450/#F4" target="_blank" rel="noopener">Bazzi et al., 2022, Fig. 4</a>.</figcaption>
+</figure>
 
 ::: {.paper-project-content}
 
@@ -124,7 +126,7 @@ Bazzi MS, Wiputra H, Wood DK, Barocas VH. Journal of Biomechanical Engineering.
 Aneurysm geometry and blood flow may provide clues about disease outcomes. We build mouse-specific computational models to investigate geometric and biofluidic measures as candidate biomarkers of ascending thoracic aortic aneurysms.
 
 ::: {.paper-project-citation}
-**Mouse-specific biofluidic and geometric biomarkers of ascending thoracic aortic aneurysm outcomes**  
+**Experimental and mouse-specific computational models of the Fbln4SMKO mouse to identify potential biomarkers for ascending thoracic aortic aneurysm**  
 Bazzi MS, Balouchzadeh R, Pavey SN, et al. Cardiovascular Engineering and Technology.
 :::
 
@@ -134,11 +136,12 @@ Bazzi MS, Balouchzadeh R, Pavey SN, et al. Cardiovascular Engineering and Techno
 
 ::: {.paper-project #sickle-cell-rheology}
 
-<div class="paper-project-media paper-project-media-pending" role="img" aria-label="Image or video for from blood rheology to patient-specific flow to be added">
-<span>Image or video coming soon</span>
-</div>
-
-<!-- Suggested visual: Experimental-to-computational workflow or blood-flow animation. Replace the pending media block with a figure with descriptive alt text, or a video with controls and preload="metadata". -->
+<figure class="paper-project-media">
+<a href="assets/projects/sickle-cell-rheology.jpg" target="_blank" rel="noopener" aria-label="Open figure at full size">
+<img src="assets/projects/sickle-cell-rheology.jpg" alt="Figure 1 showing controlled microfluidic blood-flow experiments, velocity tracking, and iterative fitting of a computational rheology model." width="750" height="302" loading="lazy" decoding="async">
+</a>
+<figcaption>Connecting microfluidic blood-flow measurements to a rheological model. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7732763/#fig1" target="_blank" rel="noopener">Bazzi et al., 2020, Fig. 1</a>.</figcaption>
+</figure>
 
 ::: {.paper-project-content}
 
@@ -149,7 +152,7 @@ Bazzi MS, Balouchzadeh R, Pavey SN, et al. Cardiovascular Engineering and Techno
 How do changes in blood rheology translate into changes in circulation? We combine experimental measurements with computational modeling to quantify patient-specific blood properties and investigate their consequences for systemic blood flow in sickle cell disease.
 
 ::: {.paper-project-citation}
-**A combined experimental–computational approach to quantify patient-specific blood rheology predicts altered systemic blood flow in sickle cell disease**  
+**An Experimental-Computational Approach to Quantify Blood Rheology in Sickle Cell Disease**  
 Bazzi MS, Valdez JM, Barocas VH, Wood DK. Biophysical Journal.
 :::
 

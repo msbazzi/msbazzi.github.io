@@ -4,74 +4,247 @@ title: "Curriculum vitae"
 
 [📄 Download CV (PDF)](Marisa_Bazzi_CV.pdf){.btn .btn-primary role="button"}
 
-## Profile
+## Research interests
 
-Computational scientist with **7+ years of expertise** developing predictive,
-patient-specific models in biomedical engineering, vascular biomechanics, and
-device-adjacent workflows. I integrate mechanistic simulation — FEA, CFD, FSI,
-growth and remodeling, multiphysics transport — with scientific ML techniques
-(constitutive neural networks, symbolic regression) and computer-vision
-pipelines for MRI, IVUS, catheterization, and clinical data.
+Computational mechanobiology of cardiovascular adaptation, integrating subject-specific fluid–solid interaction, constrained-mixture growth and remodeling, multimodal imaging, and data-driven constitutive modeling.
 
 ## Education
 
-**Ph.D., Materials Science** — University of Minnesota–Twin Cities (2018–2024)
-*Thesis:* Multiscale, multiphysical phenomena in arterial remodeling. *Advisor:* Victor Barocas.
+**Ph.D. in Materials Science — University of Minnesota–Twin Cities**  
+*Minneapolis, MN · September 2018–January 2024*
 
-**M.Sc., Mechanical Engineering** — PUC-Rio (2016–2018)
-*Dissertation:* Numerical investigation of viscoelastic liquid curtain breakup. *Advisor:* Marcio da Silveira Carvalho.
+Thesis: *Multiscale, Multiphysical Phenomena in Arterial Remodeling.*  
+Advisor: Victor H. Barocas.
 
-**B.Sc., Mechanical Engineering** — PUC-Rio (2010–2015)
-*Undergraduate thesis:* Modeling of asphaltene deposition.
+**M.Sc. in Mechanical Engineering — Pontifical Catholic University of Rio de Janeiro**  
+*Rio de Janeiro, Brazil · January 2016–January 2018*
 
-## Experience
+Dissertation: *Numerical investigation of viscoelastic liquid curtain breakup.*  
+Advisor: Marcio S. Carvalho.
 
-### Postdoctoral Scholar — Stanford University, Department of Pediatrics
-*Palo Alto, CA · 02/2024 – present*
+**B.Sc. in Mechanical Engineering — Pontifical Catholic University of Rio de Janeiro**  
+*Rio de Janeiro, Brazil · January 2010–December 2015*
 
-- Leads hybrid mechanistic + AI/ML workflows to optimize tissue-engineered vascular graft (TEVG) design, integrating large-animal experimental data with patient-specific FEA / CFD / FSI simulations.
-- Applies scientific ML — constitutive artificial neural networks (CANNs) and symbolic regression — to develop interpretable growth-and-remodeling laws for native veins and TEVGs.
-- Contributes to **SimVascular** (C++), adding modules for mesh generation, soft-tissue constitutive mechanics, and fluid–solid–growth (FSG) multiphysics coupling.
-- Builds Python / C++ pipelines for multimodal data (MRI, IVUS, catheterization) feeding downstream ML, statistical analyses, and mechanistic simulations.
-- Built end-to-end IVUS computer-vision pipelines (frame extraction → probe masking → contour segmentation → 3D reconstruction → STL/mesh).
+Undergraduate thesis: *Modeling of asphaltene deposition.*
 
-### Graduate Research Assistant — University of Minnesota, Biomedical Engineering
-*Minneapolis, MN · 09/2018 – 01/2024*
+## Research experience
 
-- Developed multiscale predictive models (hemodynamics, vascular mechanics, mass transport, growth and remodeling) for aortic aneurysm progression, patient-specific blood rheology, and TEVG performance — C++, Python, MATLAB, Ansys.
-- Built reproducible HPC simulation workflows on Linux / SLURM, generating synthetic and simulation-informed datasets for predictive model benchmarking.
-- Applied stress-based clustering, HMM-based domain segmentation, sensitivity analysis, and uncertainty quantification for automated parameter-space exploration.
-- Published 8+ peer-reviewed articles and a book chapter; presented at international conferences.
+### Postdoctoral Scholar — Stanford University
 
-### Research Scientist — Laboratory of Micro Hydrodynamics, PUC-Rio
-*Rio de Janeiro, Brazil · 01/2018 – 09/2018*
+*Cardiovascular Biomechanics Computation Laboratory, Palo Alto, CA · February 2024–Present*
 
-- Developed and verified FEA / CFD solvers for multiphase flow, viscoelasticity, and compressibility modeling.
-- Built internal benchmarks for solver validation and code optimization.
+- Lead computational modeling efforts to understand and predict tissue-engineered vascular graft (TEVG) remodeling by integrating longitudinal imaging, scaffold mechanics, fluid–structure interaction, and constrained-mixture growth and remodeling.
+- Develop physics-constrained neural-network approaches to discover interpretable constitutive laws for vascular tissues, with applications to venous mechanics.
+- Lead experimental–computational studies of developmental changes in inferior vena cava geometry, hemodynamics, and mechanics in a juvenile large-animal model.
+- Develop computational functionality within the open-source SimVascular framework for cardiovascular fluid–solid–growth simulations.
 
-### Project Services Intern — Royal Dutch Shell
-*Rio de Janeiro, Brazil · 2014 – 2015*
+### Graduate Research Assistant — University of Minnesota–Twin Cities
 
-- Managed schedules, cost tracking, and performance reporting for deepwater project controls.
-- Created a subsea cost benchmarking database improving estimation accuracy by 15% for future field developments.
+*Department of Biomedical Engineering, Minneapolis, MN · September 2018–January 2024*
 
-## Skills
+- Developed subject-specific computational models to investigate how altered blood rheology in sickle cell disease affects systemic hemodynamics and oxygen transport in the cerebral vasculature.
+- Built image-based fluid–structure interaction models of ascending thoracic aortic aneurysms to identify biomechanical markers associated with disease progression and outcomes.
+- Developed multiscale growth-and-remodeling models linking vascular wall mechanics to longitudinal changes in aneurysm geometry and arterial adaptation.
+- Integrated medical imaging, experimental measurements, finite-element modeling, and transport simulations to study cardiovascular disease across multiple spatial and temporal scales.
 
-**AI/ML & scientific ML** — deep learning, symbolic regression, neural networks (intermediate)
-**Mechanistic modeling** — FEA, CFD, FSI, growth and remodeling (advanced)
-**Programming** — Python (advanced), C++ (intermediate), MATLAB (advanced), Ansys/Comsol (intermediate)
-**Infrastructure** — HPC / cluster computing, Linux, SLURM (advanced)
+### Research Scientist — PUC-Rio
 
-## Awards, fellowships & leadership
+*Laboratory of Microhydrodynamics and Flow in Porous Media, Rio de Janeiro, Brazil · January–September 2018*
 
-- **2025** — CHIP T32 Training Grant
-- **2025** — Rising Star in Computational and Data Science (Oden Institute, UT Austin)
-- **2024** — Baker Postdoctoral Fellowship (Stanford)
-- **2023** — Equity and Inclusion Leadership Showcase
-- **2023** — President's Student Leadership and Service Award
-- **2022** — AHA Predoctoral Fellowship (rank 8%)
-- **2021** — CEMS TA Award
-- **2021** — Graduate Student Coordinator, CSE Women and BIPOC Initiatives
-- **2021** — Chair, DEI Working Group
-- **2018** — Second place, ABCM-EMBRAER Best M.Sc. Dissertation
-- **2017** — Faperj Nota 10 Fellowship
+- Developed mathematical and computational models of two-dimensional multiphase flow in porous media for reservoir-flow and pressure analyses.
+- Implemented numerical simulations to investigate fluid compressibility and reservoir response under varying pressure conditions.
+- Applied finite-element and numerical methods to characterize transport processes in complex porous-media systems.
+
+### Graduate Research Assistant — Pontifical Catholic University of Rio de Janeiro
+
+*Laboratory of Microhydrodynamics and Flow in Porous Media, Rio de Janeiro, Brazil · January 2016–January 2018*
+
+- Developed mathematical models of viscoelastic liquid-sheet and liquid-curtain rupture to determine how non-Newtonian stresses regulate interfacial stability.
+- Derived long-wave models for planar and axisymmetric geometries and implemented numerical methods to solve the resulting governing equations.
+- Performed linear stability analyses demonstrating how viscoelastic normal stresses can delay or suppress liquid-sheet rupture.
+
+## Funding and awards
+
+| Year | Fellowship or award |
+|:--|:--|
+| 2026–Present | CHIP T32 Fellowship |
+| 2025 | Rising Star in Computational and Data Science |
+| 2024–2025 | Baker Postdoctoral Fellowship |
+| 2023 | Equity and Inclusion Leadership Showcase |
+| 2023 | President's Student Leadership & Service Award |
+| 2022–2024 | American Heart Association Predoctoral Fellowship — ranked in the top 8% |
+| 2021 | CEMS Teaching Assistant Award |
+| 2019 | SB3C Diversity Travel Grant |
+| 2018 | Second Place, ABCM–EMBRAER Best M.Sc. Dissertation |
+| 2017–2018 | FAPERJ Nota 10 Fellowship for M.Sc. Program |
+
+## Teaching and mentoring training
+
+**Postdoc Mentoring Certificate — Tier 1: Learn**  
+*Stanford University Office of Postdoctoral Affairs · 2026*
+
+Completed foundational mentor training, structured mentoring discussions, self-assessment, and reflective development of mentoring practices.
+
+**Optimizing Culturally Inclusive Mentoring Practices**  
+*Stanford University Office of Postdoctoral Affairs · 2025*
+
+Completed a two-day intensive workshop led by Kelly Diggs-Andrews, Ph.D., focused on effective and culturally responsive research mentoring.
+
+**Teaching Workshop for Postdocs**  
+*Stanford University Office of Postdoctoral Affairs · 2025*
+
+Completed formal training in evidence-based teaching, including learning climate, communication of goals, learner assessment, feedback, and promotion of self-directed learning.
+
+**Postdoc Mentoring Coach Training**  
+*Stanford University Office of Postdoctoral Affairs · 2025*
+
+Trained in CIMER-based research mentoring, peer coaching, mentoring curriculum facilitation, and workshop facilitation.
+
+## Teaching experience
+
+**Introduction to Bioengineering Research — Stanford University**  
+*Guest Lecturer · 2025*
+
+Delivered a guest lecture on approaches to computational modeling and simulation research in congenital heart disease.
+
+**Biomedical Engineering Undergraduate Seminar II — University of Minnesota**  
+*Guest Lecturer · 2023*
+
+Taught a module on the connections between sickle cell disease and cerebral aneurysms.
+
+**Numerical Methods for Materials Science — University of Minnesota**  
+*Teaching Assistant · 2022*
+
+Held office hours and led discussion sections to support students in applying numerical methods to materials science problems.
+
+**Materials Processing — University of Minnesota**  
+*Teaching Assistant · 2020*
+
+Led laboratory sessions on thermal and mechanical processing methods used to control material structure and properties.
+
+**Introduction to the Science of Engineering Materials — University of Minnesota**  
+*Teaching Assistant · 2019*
+
+Led laboratory sessions analyzing elasticity, fracture toughness, and thermal behavior.
+
+**Numerical Methods — Pontifical Catholic University of Rio de Janeiro**  
+*Substitute Instructor · 2016–2018*
+
+Delivered undergraduate lectures in place of the course instructor, covering numerical integration, Newton methods, and other fundamental numerical techniques.
+
+## Research supervision
+
+**D. A. — Stanford University**  
+*Graduate Researcher · 2024–Present*
+
+- Applied constitutive artificial neural networks (CANNs) to discover interpretable constitutive models for coronary artery bypass grafts.
+- Assessed the influence of constitutive model choice on fluid–structure interaction predictions.
+
+**L. W. — Stanford University**  
+*Undergraduate Researcher · 2025*
+
+- Performed longitudinal analysis of large-animal tissue-engineered vascular graft remodeling using high-fidelity FSI simulations.
+
+**C. A. — The Ohio State University**  
+*Graduate Researcher · 2024–2025*
+
+- Analyzed longitudinal vascular geometry and mechanics in a large-animal model of venous development.
+- Performed quantitative analysis of longitudinal imaging and biomechanical data from tissue-engineered vascular graft studies.
+- Subsequently admitted to medical school at Ohio State University.
+
+**C. L. — Stanford University**  
+*Undergraduate Researcher · 2024*
+
+- Performed patient-specific FSI simulations of Fontan cardiovascular models.
+- Subsequently admitted to the Stanford Bioengineering graduate program.
+
+**J. F. — University of Minnesota**  
+*Graduate Researcher · 2022–2023*
+
+- Applied signal-processing methods to study pressure waveforms and their relationship to cardiovascular disease progression.
+
+**C. V. — University of Minnesota**  
+*Graduate Researcher · 2021–2022*
+
+- Performed high-fidelity computational simulations of collagen gels under compression.
+
+**C. H. — University of Minnesota**  
+*Undergraduate Researcher · 2020–2023*
+
+- Developed image-based models through segmentation and computational simulation of Marfan syndrome mouse vasculature.
+- Subsequently admitted to medical school at the University of Minnesota.
+
+## Professional service and outreach
+
+**Mentor, Science Small Groups (SSG) — Stanford University**  
+*Community College Research Mentoring Program · 2026–Present*
+
+Mentor community college students in developing independent research questions, formulating hypotheses, designing experimental approaches, and evaluating scientific literature.
+
+**Ad Hoc Peer Reviewer**  
+*2024–Present*
+
+Cardiovascular Engineering and Technology; Discover Nano; Scientific Reports.
+
+**CEMS Diversity, Equity, and Inclusion Working Group — University of Minnesota**  
+*Co-founder and Chair, Graduate Recruitment Subgroup · 2020–2022*
+
+Contributed to the strategic plan, coordinated recruitment initiatives, and communicated with departmental and college leadership.
+
+**Graduate Student Coordinator — University of Minnesota**  
+*College of Science and Engineering · 2021–2022*
+
+Supported programming, recruitment, retention, and inclusion initiatives for women and BIPOC graduate students and prepared annual impact recommendations.
+
+## Selected publications
+
+### Peer-reviewed journal publications
+
+1. Dwivedi KK, Wu Y, **Bazzi MS**, et al. Alterations in ascending aortic hemodynamics and aortic length correlate with sex-specific thoracic aortic aneurysm dilation and lifespan in a mouse model of severe Marfan syndrome. *Computers in Biology and Medicine*, 205:111594, 2026.
+2. Wu Y, Dwivedi KK, Wiputra H, **Bazzi MS**, et al. Patient-specific fluid–structure interaction simulations suggest wall-shear-stress-related biomarkers in type B dissection associated with Marfan syndrome. *Annals of Biomedical Engineering*, 2026.
+3. Ketterling JA, Wahyulaksana G, **Bazzi MS**, Wiputra H. A technique to track scatterers for continuous high-speed plane-wave ultrasound simulations based on a fluid domain model. *IEEE Open Journal of Ultrasonics, Ferroelectrics, and Frequency Control*, 5:166–175, 2025.
+4. **Bazzi MS**, Wiputra H, Barocas VH. Fluid–structure-based multiscale model of hemodynamics-driven arterial growth and remodeling. *Biomechanics and Modeling in Mechanobiology*, 2025.
+5. **Bazzi MS**, Wiputra H, Wood DK, Barocas VH. Computational analysis of flow and transport suggests reduced oxygen levels within intracranial aneurysms, especially in individuals with sickle-cell disease. *Journal of Biomechanical Engineering*, 147(2), 2025.
+6. Komosa ER, Lin W-H, Mahadik B, **Bazzi M**, Townsend D, Fisher J, Ogle BM. A novel perfusion bioreactor promotes the expansion of pluripotent stem cells in a 3D-bioprinted chamber. *Biofabrication*, 16(1):014101, 2023.
+7. Vidmar CS, **Bazzi M**, Lai VK. Computational and experimental comparison on the effects of flow-induced compression on the permeability of collagen gels. *Journal of the Mechanical Behavior of Biomedical Materials*, 2022.
+8. **Bazzi MS**, Balouchzadeh R, Pavey SN, Quirk JD, Yanagisawa H, Vedula V, Wagenseil JE, Barocas VH. Mouse-specific biofluidic and geometric biomarkers of ascending thoracic aortic aneurysm outcomes. *Cardiovascular Engineering and Technology*, 2022.
+9. **Bazzi MS**, Valdez JM, Barocas VH, Wood DK. A combined experimental–computational approach to quantify patient-specific blood rheology predicts altered systemic blood flow in sickle cell disease. *Biophysical Journal*, 2020.
+10. **Bazzi MS**, Carvalho MS. Effect of viscoelastic forces on liquid sheet rupture process. *Journal of Non-Newtonian Fluid Mechanics*, 2019.
+
+### Preprints and submitted manuscripts
+
+1. **Bazzi MS**, et al. Experimental–computational characterization of somatic growth of the inferior vena cava in juvenile sheep. *Submitted.*
+2. **Bazzi MS**, Adil D, Humphrey JD, Marsden AL. Data-driven discovery of constitutive models for vein mechanics using constitutive neural networks. *Submitted.*
+3. Matsuzaki Y, Lindsey S, Szafron JM, Zbinden JC, Ramachandra AB, Reinhardt JW, Blum KM, **Bazzi MS**, et al. Improving tissue engineered vascular graft performance using an experimental–computational approach. *Submitted.*
+
+### Manuscripts in preparation
+
+1. **Bazzi MS**, et al. Temporal evolution of hemodynamics in tissue-engineered vascular grafts: A fluid–structure interaction analysis. *In preparation.*
+2. **Bazzi MS**, et al. Mapping scaffold properties to remodeling trajectories in tissue-engineered vascular grafts. *In preparation.*
+
+### Book chapters
+
+1. **Bazzi MS**, Balbino TA. Dynamic microphysiological systems to access sickle cell disease: A case study for disease modeling. In: *Smart Organ-on-Chip Devices: Dynamic Microfluidic Systems for Cell Culture*, pp. 143–156, Academic Press, 2025.
+
+## Invited talks
+
+- **April 2025** — Predicting TEVG outcomes: How scaffold design shapes vascular remodeling and blood flow. Rising Stars in Computational and Data Sciences Workshop, Oden Institute for Computational Engineering and Sciences, The University of Texas at Austin.
+- **April 2025** — Multiscale, multiphysical modeling of blood flow, vascular mechanics, and growth and remodeling. Invited Seminar, Department of Mechanical and Aerospace Engineering, University of California San Diego, San Diego, CA.
+- **March 2024** — Subject-specific computational models of FblnSMKO+ mice: Investigating potential biomarkers to predict ascending thoracic aortic aneurysm outcomes. CVI Early Career Research Roundtable, Stanford University.
+- **December 2021** — Multiscale, multiphysical phenomena in arterial remodeling. Invited Virtual Seminar, Brazilian Association of Engineering and Mechanical Sciences.
+- **November 2021** — Multiscale, multiphysical phenomena in arterial remodeling. With Victor H. Barocas. Invited Virtual Seminar, Pontifical Catholic University of Rio de Janeiro.
+
+## Selected conference presentations
+
+- **2026** — Microstructure-based constitutive model discovery for venous mechanics. Oral presentation, 8th International Conference on Computational and Mathematical Biomedical Engineering (CMBE 2026), Kobe, Japan.
+- **2025** — Linking Scaffold Mechanics to Hemodynamics and Neovessel Remodeling in a TEVG Ovine Model. 10th International Biofluid Mechanics and Mechanobiology Symposium (IBMS10), Irvine, CA.
+- **June 2024** — Uniform growth laws recapitulate aspects of ascending aortic aneurysm progression in FBLN4 mice. With H. Wiputra and V. H. Barocas. Oral presentation, Summer Biomechanics, Bioengineering, and Biotransport Conference, Lake Geneva, WI.
+- **July 2023** — Impact of sickle cell disease on oxygen transport in intracranial aneurysms. With H. Wiputra and V. H. Barocas. Oral presentation, 28th Congress of the European Society of Biomechanics, Maastricht, Netherlands.
+- **July 2022** — Hemodynamics-driven aortic growth and remodeling in genetically modified mouse models. With J. E. Wagenseil and V. H. Barocas. Oral presentation, 27th Congress of the European Society of Biomechanics, Porto, Portugal.
+- **June 2022** — Fluid–structure-based computational modeling of hemodynamics-driven aortic growth and remodeling. With J. E. Wagenseil and V. H. Barocas. Oral presentation, Summer Biomechanics, Bioengineering, and Biotransport Conference, Cambridge, MN.
+- **2021** — Sickle-cell-disease-induced changes in blood viscosity can alter arterial wall shear stress profiles. With J. M. Valdez, V. H. Barocas, and D. K. Wood. Oral presentation, Summer Biomechanics, Bioengineering, and Biotransport Conference, virtual.
+- **2019** — Combined microfluidic–computational approach to quantify the effect of sickle-cell disease on blood rheology. With J. M. Valdez, V. H. Barocas, and D. K. Wood. Oral presentation, Summer Biomechanics, Bioengineering, and Biotransport Conference, Seven Springs, PA.
+- **2018** — Breakup of viscoelastic liquid curtains. With M. S. Carvalho. Oral presentation, 19th International Coating Science and Technology Symposium, Long Beach, CA.
+- **2017** — Numerical investigation of viscoelastic liquid curtain breakup. With M. S. Carvalho. Oral presentation, 24th ABCM International Congress of Mechanical Engineering, Curitiba, Brazil.
+- **2017** — Effect of viscoelasticity on liquid curtain rupture. With M. S. Carvalho. 89th Annual Meeting of the Society of Rheology, Denver, CO.
+- **2017** — Modeling liquid curtain rupture. With M. S. Carvalho. Coating Process Fundamentals Program, IPRIME Annual Review, University of Minnesota, Minneapolis, MN.

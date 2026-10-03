@@ -19,5 +19,15 @@
     "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7732763/#fig1",
     "image_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8104/7732763/7605120f4f1f/gr1.jpg",
     "credit": "Bazzi et al., 2020, Fig. 1"
+  },
+  {
+    "project": "aortic-growth",
+    "file": "aortic-growth-paper.png",
+    "source": "https://doi.org/10.1007/s10237-025-01972-5",
+    "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs10237-025-01972-5/MediaObjects/10237_2025_1972_Fig7_HTML.png",
+    "credit": "Bazzi et al., 2025, Fig. 7",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "None"
   }
 ]
